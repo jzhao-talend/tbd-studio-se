@@ -1590,11 +1590,11 @@
             "description": ""
         },
         {
-            "id": "aws-java-sdk",
+            "id": "aws-java-sdk-bundle",
             "type": "STANDARD",
             "context": "{properties.context}",
-            "jarName": "aws-java-sdk-1.11.760.jar",
-            "mvnUri": "mvn:com.amazonaws/aws-java-sdk/1.11.760",
+            "jarName": "aws-java-sdk-bundle-1.11.760.jar",
+            "mvnUri": "mvn:com.amazonaws/aws-java-sdk-bundle/1.11.760",
             "useStudioRepository": "true",
             "description": ""
         },
@@ -1915,7 +1915,7 @@
             "description": "",
             "modules": [
                 "hadoop-client",
-                "aws-java-sdk",
+                "aws-java-sdk-bundle",
                 "cloudera-navigator",
                 "talend-lineage-api"
             ]
@@ -1957,7 +1957,7 @@
             "description": "",
             "modules": [
                 "hadoop-aws",
-                "aws-java-sdk",
+                "aws-java-sdk-bundle",
                 "talend-bigdata-aws"
             ]
         },
@@ -1966,7 +1966,7 @@
             "description": "",
             "modules": [
                 "hadoop-client",
-                "aws-java-sdk",
+                "aws-java-sdk-bundle",
                 "spark-streaming-kinesis-asl_2.11",
                 "jackson-dataformat-cbor"
             ]
