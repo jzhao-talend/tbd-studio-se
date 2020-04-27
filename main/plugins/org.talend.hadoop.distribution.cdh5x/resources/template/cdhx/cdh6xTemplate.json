@@ -1848,20 +1848,20 @@
 			]
 		},
 		{
-            "id": "SPARK-LIB-SPARK2-DYNAMIC",
-            "description": "",
-            "modules": [
-                "hadoop-mapreduce-client-core",
-                "hadoop-yarn-server-web-proxy",
-                "hive-exec",
-                "spark-hive_2.11",
-                "hive-exec-spark",
-                "spark-mllib_2.11",
-                "spark-yarn_2.11",
-                "spark-avro_2.11",
-                "commons-httpclient-3.1"
-            ]
-        },
+			"id": "SPARK-LIB-SPARK2-DYNAMIC",
+			"description": "",
+			"modules": [
+				"hadoop-mapreduce-client-core",
+				"hadoop-yarn-server-web-proxy",				
+				"hive-exec",
+				"spark-hive_2.11",
+				"hive-exec-spark",
+				"spark-mllib_2.11",
+				"spark-yarn_2.11",
+				"spark-avro_2.11",
+				"commons-httpclient-3.1"
+			]
+		},
         {
             "id": "MAPREDUCE-LIB-DYNAMIC",
             "description": "",
