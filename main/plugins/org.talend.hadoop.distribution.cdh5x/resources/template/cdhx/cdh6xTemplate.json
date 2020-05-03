@@ -591,59 +591,59 @@
                     "extension": "",
                     "description": ""
                 }
-            ]
-        },
-        {
-            "id": "hive-exec",
-            "type": "STANDARD",
-            "context": "{properties.context}",
-            "jarName": "hive-exec-shade-2.1.1-cdh6.1.1.jar",
-            "mvnUri": "mvn:org.talend.libraries/hive-exec-shade-2.1.1-cdh6.1.1/6.0.0",
-            "useStudioRepository": "true",
-            "description": ""
-        },
-        {
-            "id": "hive-exec-spark",
-            "type": "BASE",
-            "context": "{properties.context}",
-            "groupId": "org.spark-project.hive",
-            "artifactId": "hive-exec",
-            "version": "1.2.1",
-            "jarName": "hive-exec-1.2.1.spark2.jar",
-            "classifier": "",
-            "mvnUri": "mvn:org.spark-project.hive/hive-exec/1.2.1.spark2",
-            "description": ""
-        },
-        {
-            "id": "hive-hbase-handler",
-            "type": "BASE",
-            "context": "{properties.context}",
-            "groupId": "org.apache.hive",
-            "artifactId": "hive-hbase-handler",
-            "classifier": "",
-            "description": "",
-            "exclusions": [
-                {
-                    "groupId": "org.apache.hive",
-                    "artifactId": "hive-exec",
-                    "classifier": "",
-                    "extension": "",
-                    "description": ""
-                },
-                {
-                    "groupId": "eigenbase",
-                    "artifactId": "eigenbase-properties",
-                    "classifier": "",
-                    "extension": "",
-                    "description": ""
-                },
-                {
-                    "groupId": "io.netty",
-                    "artifactId": "*",
-                    "classifier": "",
-                    "extension": "",
-                    "description": ""
-                },
+			]
+		},
+		{
+			"id": "hive-exec",
+			"type": "STANDARD",
+			"context": "{properties.context}",
+			"jarName": "hive-exec-shade-2.1.1-cdh6.1.1-talend.jar",
+			"mvnUri": "mvn:org.talend.libraries/hive-exec-shade-2.1.1-cdh6.1.1-talend/6.0.0",
+			"useStudioRepository": "true",
+			"description": ""
+		},
+		{
+			"id": "hive-exec-spark",
+			"type": "BASE",
+			"context": "{properties.context}",			
+			"groupId": "org.spark-project.hive",
+			"artifactId": "hive-exec",
+			"version": "1.2.1",
+			"jarName": "hive-exec-1.2.1.spark2.jar",
+			"classifier": "",
+			"mvnUri": "mvn:org.spark-project.hive/hive-exec/1.2.1.spark2",
+			"description": ""
+		},
+		{
+			"id": "hive-hbase-handler",
+			"type": "BASE",
+			"context": "{properties.context}",
+			"groupId": "org.apache.hive",
+			"artifactId": "hive-hbase-handler",
+			"classifier": "",
+			"description": "",
+			"exclusions": [
+				{
+					"groupId": "org.apache.hive",
+					"artifactId": "hive-exec",
+					"classifier": "",
+					"extension": "",
+					"description": ""
+				},
+				{
+					"groupId": "eigenbase",
+					"artifactId": "eigenbase-properties",
+					"classifier": "",
+					"extension": "",
+					"description": ""
+				},
+				{
+					"groupId": "io.netty",
+					"artifactId": "*",
+					"classifier": "",
+					"extension": "",
+					"description": ""
+				},
                 {
                     "groupId": "org.glassfish",
                     "artifactId": "javax.el",
