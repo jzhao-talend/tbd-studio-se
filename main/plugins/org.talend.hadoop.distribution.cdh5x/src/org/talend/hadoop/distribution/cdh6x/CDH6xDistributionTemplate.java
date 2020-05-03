@@ -185,7 +185,12 @@ public class CDH6xDistributionTemplate extends AbstractDynamicCDHDistributionTem
     public boolean doSupportAssumeRole() {
         return true;
     }
-    
+
+    @Override
+    public boolean doSupportExtendedAssumeRole() {
+        return true;
+    }
+
     @Override
     public boolean useOldAWSAPI() {
         return false;

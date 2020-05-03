@@ -235,6 +235,11 @@ public class HDP3xxDistributionTemplate extends AbstractDynamicHDPDistributionTe
     }
 
     @Override
+    public boolean doSupportExtendedAssumeRole() {
+        return true;
+    }
+
+    @Override
     public boolean doSupportAvroDeflateProperties() {
         return true;
     }

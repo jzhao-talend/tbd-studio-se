@@ -490,4 +490,10 @@ public class EMR5150Distribution extends AbstractDistribution implements HBaseCo
     public boolean doSupportAssumeRole() {
         return true;
     }
+
+    @Override
+    public boolean doSupportExtendedAssumeRole() {
+        return true;
+    }
+
 }
