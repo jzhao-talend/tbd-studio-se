@@ -1195,7 +1195,7 @@
       "jarName": "parquet-avro-1.4.1.jar",
       "mvnUri": "mvn:com.twitter/parquet-avro/1.4.1",
       "description": ""
-    },  
+    },
     {
       "id": "talend-bigdata-aws-1.0.0-20180116",
       "type": "STANDARD",
