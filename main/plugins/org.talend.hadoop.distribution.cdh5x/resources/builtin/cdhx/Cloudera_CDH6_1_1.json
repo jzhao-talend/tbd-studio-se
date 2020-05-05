@@ -12388,7 +12388,7 @@
       "context" : "plugin:org.talend.hadoop.distribution.cdh5x",
       "excludeDependencies" : "true",
       "id" : "DYNAMIC_Cloudera_CDH6_1_1_elephant_bird_core_4_9_jar",
-      "mvn_uri" : "mvn:com.twitter.elephantbird/elephant-bird-core/4.9",
+      "mvn_uri" : "mvn:com.twitter.elephantbird/elephant-bird-core/4.9/jar",
       "name" : "elephant-bird-core-4.9.jar",
       "tagName" : "libraryNeeded"
     }, {
@@ -12919,7 +12919,7 @@
       "context" : "plugin:org.talend.hadoop.distribution.cdh5x",
       "excludeDependencies" : "true",
       "id" : "DYNAMIC_Cloudera_CDH6_1_1_hive_hcatalog_core_2_1_1_cdh6_1_1_jar",
-      "mvn_uri" : "mvn:org.apache.hive.hcatalog/hive-hcatalog-core/2.1.1-cdh6.1.1/jar",
+      "mvn_uri" : "mvn:org.apache.hive.hcatalog/hive-hcatalog-core/2.1.1-cdh6.1.1",
       "name" : "hive-hcatalog-core-2.1.1-cdh6.1.1.jar",
       "tagName" : "libraryNeeded"
     }, {
@@ -14402,7 +14402,7 @@
       "context" : "plugin:org.talend.hadoop.distribution.cdh5x",
       "excludeDependencies" : "true",
       "id" : "DYNAMIC_Cloudera_CDH6_1_1_pig_0_17_0_cdh6_1_1_jar",
-      "mvn_uri" : "mvn:org.apache.pig/pig/0.17.0-cdh6.1.1/jar",
+      "mvn_uri" : "mvn:org.apache.pig/pig/0.17.0-cdh6.1.1",
       "name" : "pig-0.17.0-cdh6.1.1.jar",
       "tagName" : "libraryNeeded"
     }, {
@@ -14818,7 +14818,7 @@
       "context" : "plugin:org.talend.hadoop.distribution.cdh5x",
       "excludeDependencies" : "true",
       "id" : "DYNAMIC_Cloudera_CDH6_1_1_talend_bigdata_aws",
-      "mvn_uri" : "mvn:org.talend.libraries/talend-bigdata-aws-lib-1.1.0/6.0.0",
+      "mvn_uri" : "mvn:org.talend.bigdata.libs/talend-bigdata-aws-lib/1.1.0",
       "name" : "talend-bigdata-aws-lib-1.1.0.jar",
       "tagName" : "libraryNeeded",
       "useStudioRepository" : "true"
