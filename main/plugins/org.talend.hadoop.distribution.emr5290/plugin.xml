@@ -290,6 +290,12 @@
 
         <libraryNeeded
             context="plugin:org.talend.libraries.s3"
+            id="talend-bigdata-aws-lib-1.1.0.jar"
+            name="talend-bigdata-aws-lib-1.1.0.jar"
+            mvn_uri="mvn:org.talend.bigdata.libs/talend-bigdata-aws-lib/1.1.0"/>
+
+        <libraryNeeded
+            context="plugin:org.talend.libraries.s3"
             id="aws-java-sdk-sts-1.11.760.jar"
             name="aws-java-sdk-sts-1.11.760.jar"
             mvn_uri="mvn:com.amazonaws/aws-java-sdk-sts/1.11.760"/>
@@ -1915,6 +1921,7 @@
              <library id="aws-java-sdk-core-1.11.700.jar"/>
              <library id="aws-java-sdk-s3-1.11.700.jar"/>
              <library id="aws-java-sdk-sts-1.11.760.jar"/>
+             <library id="talend-bigdata-aws-lib-1.1.0.jar"/>
         </libraryNeededGroup>
 
         <!-- Map/Reduce group -->
