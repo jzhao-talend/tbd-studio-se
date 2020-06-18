@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.Set;
 
 import org.talend.hadoop.distribution.ESparkVersion;
+import org.talend.hadoop.distribution.ESqoopPackageName;
 import org.talend.hadoop.distribution.component.CDPSparkBatchComponent;
 import org.talend.hadoop.distribution.component.HBaseComponent;
 import org.talend.hadoop.distribution.component.HCatalogComponent;
@@ -48,7 +49,10 @@ public class CDP7xDistributionTemplate extends AbstractDynamicCDPDistributionTem
     public CDP7xDistributionTemplate(DynamicPluginAdapter pluginAdapter) throws Exception {
         super(pluginAdapter);
     }
-
+    @Override
+    public String getSqoopPackageName() {
+        return ESqoopPackageName.ORG_APACHE_SQOOP.toString();
+    }
     @Override
     public String getTemplateId() {
         return TEMPLATE_ID;
