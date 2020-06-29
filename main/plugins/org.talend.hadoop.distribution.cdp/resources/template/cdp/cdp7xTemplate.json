@@ -838,15 +838,13 @@
             "id" : "SQOOP-LIB-DYNAMIC",
             "description" : "",
             "modules": [
-                
+                "sqoop_only"
             ]
         },
         {
             "id" : "SQOOP-PARQUET-LIB-DYNAMIC",
             "description" : "",
-            "modules": [
-                "kite-data-core"
-            ]
+            "modules": []
         },
         {
             "id" : "TALEND_CLOUDERA_NAVIGATOR-DYNAMIC",

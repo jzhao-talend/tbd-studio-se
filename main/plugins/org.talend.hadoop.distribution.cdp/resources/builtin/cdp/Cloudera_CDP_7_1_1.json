@@ -8764,113 +8764,17 @@
       "tagName" : "libraryNeededGroup",
       "templateId" : "SPARK-S3-LIB-MRREQUIRED-DYNAMIC"
     }, {
-      "childNodes" : [ ],
+      "childNodes" : [ {
+        "childNodes" : [ ],
+        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_sqoop_1_4_7_7_1_1_0_565_jar",
+        "tagName" : "library"
+      } ],
       "description" : "",
       "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_SQOOP_LIB_DYNAMIC",
       "tagName" : "libraryNeededGroup",
       "templateId" : "SQOOP-LIB-DYNAMIC"
     }, {
-      "childNodes" : [ {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_avro_1_8_2_7_1_1_0_565_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_commons_codec_1_11_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_commons_compress_1_19_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_commons_jexl_2_1_1_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_commons_logging_1_2_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_jackson_annotations_2_10_3_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_jackson_core_2_10_3_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_jackson_core_asl_1_9_13_cloudera_1_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_jackson_databind_2_10_3_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_jackson_mapper_asl_1_9_13_cloudera_1_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_kite_data_core_1_1_0_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_kite_hadoop_compatibility_1_1_0_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_opencsv_2_3_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_paranamer_2_8_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_avro_1_6_0_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_column_1_6_0_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_common_1_6_0_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_encoding_1_6_0_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_format_2_2_0_rc1_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_generator_1_6_0_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_hadoop_1_6_0_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_jackson_1_6_0_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_slf4j_api_1_7_30_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_snappy_java_1_1_7_5_jar",
-        "tagName" : "library"
-      }, {
-        "childNodes" : [ ],
-        "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_xz_1_6_jar",
-        "tagName" : "library"
-      } ],
+      "childNodes" : [ ],
       "description" : "",
       "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_SQOOP_PARQUET_LIB_DYNAMIC",
       "tagName" : "libraryNeededGroup",
@@ -9998,14 +9902,6 @@
       "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_commons_io_2_6_jar",
       "mvn_uri" : "mvn:commons-io/commons-io/2.6/jar",
       "name" : "commons-io-2.6.jar",
-      "tagName" : "libraryNeeded"
-    }, {
-      "childNodes" : [ ],
-      "context" : "plugin:org.talend.hadoop.distribution.cdp",
-      "excludeDependencies" : "true",
-      "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_commons_jexl_2_1_1_jar",
-      "mvn_uri" : "mvn:org.apache.commons/commons-jexl/2.1.1/jar",
-      "name" : "commons-jexl-2.1.1.jar",
       "tagName" : "libraryNeeded"
     }, {
       "childNodes" : [ ],
@@ -11820,22 +11716,6 @@
       "childNodes" : [ ],
       "context" : "plugin:org.talend.hadoop.distribution.cdp",
       "excludeDependencies" : "true",
-      "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_kite_data_core_1_1_0_jar",
-      "mvn_uri" : "mvn:org.kitesdk/kite-data-core/1.1.0",
-      "name" : "kite-data-core-1.1.0.jar",
-      "tagName" : "libraryNeeded"
-    }, {
-      "childNodes" : [ ],
-      "context" : "plugin:org.talend.hadoop.distribution.cdp",
-      "excludeDependencies" : "true",
-      "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_kite_hadoop_compatibility_1_1_0_jar",
-      "mvn_uri" : "mvn:org.kitesdk/kite-hadoop-compatibility/1.1.0/jar",
-      "name" : "kite-hadoop-compatibility-1.1.0.jar",
-      "tagName" : "libraryNeeded"
-    }, {
-      "childNodes" : [ ],
-      "context" : "plugin:org.talend.hadoop.distribution.cdp",
-      "excludeDependencies" : "true",
       "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_kryo_shaded_4_0_2_jar",
       "mvn_uri" : "mvn:com.esotericsoftware/kryo-shaded/4.0.2/jar",
       "name" : "kryo-shaded-4.0.2.jar",
@@ -12172,25 +12052,9 @@
       "childNodes" : [ ],
       "context" : "plugin:org.talend.hadoop.distribution.cdp",
       "excludeDependencies" : "true",
-      "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_avro_1_6_0_jar",
-      "mvn_uri" : "mvn:com.twitter/parquet-avro/1.6.0/jar",
-      "name" : "parquet-avro-1.6.0.jar",
-      "tagName" : "libraryNeeded"
-    }, {
-      "childNodes" : [ ],
-      "context" : "plugin:org.talend.hadoop.distribution.cdp",
-      "excludeDependencies" : "true",
       "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_column_1_10_99_7_1_1_0_565_jar",
       "mvn_uri" : "mvn:org.apache.parquet/parquet-column/1.10.99.7.1.1.0-565/jar",
       "name" : "parquet-column-1.10.99.7.1.1.0-565.jar",
-      "tagName" : "libraryNeeded"
-    }, {
-      "childNodes" : [ ],
-      "context" : "plugin:org.talend.hadoop.distribution.cdp",
-      "excludeDependencies" : "true",
-      "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_column_1_6_0_jar",
-      "mvn_uri" : "mvn:com.twitter/parquet-column/1.6.0/jar",
-      "name" : "parquet-column-1.6.0.jar",
       "tagName" : "libraryNeeded"
     }, {
       "childNodes" : [ ],
@@ -12204,33 +12068,9 @@
       "childNodes" : [ ],
       "context" : "plugin:org.talend.hadoop.distribution.cdp",
       "excludeDependencies" : "true",
-      "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_common_1_6_0_jar",
-      "mvn_uri" : "mvn:com.twitter/parquet-common/1.6.0/jar",
-      "name" : "parquet-common-1.6.0.jar",
-      "tagName" : "libraryNeeded"
-    }, {
-      "childNodes" : [ ],
-      "context" : "plugin:org.talend.hadoop.distribution.cdp",
-      "excludeDependencies" : "true",
       "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_encoding_1_10_99_7_1_1_0_565_jar",
       "mvn_uri" : "mvn:org.apache.parquet/parquet-encoding/1.10.99.7.1.1.0-565/jar",
       "name" : "parquet-encoding-1.10.99.7.1.1.0-565.jar",
-      "tagName" : "libraryNeeded"
-    }, {
-      "childNodes" : [ ],
-      "context" : "plugin:org.talend.hadoop.distribution.cdp",
-      "excludeDependencies" : "true",
-      "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_encoding_1_6_0_jar",
-      "mvn_uri" : "mvn:com.twitter/parquet-encoding/1.6.0/jar",
-      "name" : "parquet-encoding-1.6.0.jar",
-      "tagName" : "libraryNeeded"
-    }, {
-      "childNodes" : [ ],
-      "context" : "plugin:org.talend.hadoop.distribution.cdp",
-      "excludeDependencies" : "true",
-      "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_format_2_2_0_rc1_jar",
-      "mvn_uri" : "mvn:com.twitter/parquet-format/2.2.0-rc1/jar",
-      "name" : "parquet-format-2.2.0-rc1.jar",
       "tagName" : "libraryNeeded"
     }, {
       "childNodes" : [ ],
@@ -12244,25 +12084,9 @@
       "childNodes" : [ ],
       "context" : "plugin:org.talend.hadoop.distribution.cdp",
       "excludeDependencies" : "true",
-      "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_generator_1_6_0_jar",
-      "mvn_uri" : "mvn:com.twitter/parquet-generator/1.6.0/jar",
-      "name" : "parquet-generator-1.6.0.jar",
-      "tagName" : "libraryNeeded"
-    }, {
-      "childNodes" : [ ],
-      "context" : "plugin:org.talend.hadoop.distribution.cdp",
-      "excludeDependencies" : "true",
       "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_hadoop_1_10_99_7_1_1_0_565_jar",
       "mvn_uri" : "mvn:org.apache.parquet/parquet-hadoop/1.10.99.7.1.1.0-565/jar",
       "name" : "parquet-hadoop-1.10.99.7.1.1.0-565.jar",
-      "tagName" : "libraryNeeded"
-    }, {
-      "childNodes" : [ ],
-      "context" : "plugin:org.talend.hadoop.distribution.cdp",
-      "excludeDependencies" : "true",
-      "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_hadoop_1_6_0_jar",
-      "mvn_uri" : "mvn:com.twitter/parquet-hadoop/1.6.0/jar",
-      "name" : "parquet-hadoop-1.6.0.jar",
       "tagName" : "libraryNeeded"
     }, {
       "childNodes" : [ ],
@@ -12279,14 +12103,6 @@
       "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_jackson_1_10_99_7_1_1_0_565_jar",
       "mvn_uri" : "mvn:org.apache.parquet/parquet-jackson/1.10.99.7.1.1.0-565/jar",
       "name" : "parquet-jackson-1.10.99.7.1.1.0-565.jar",
-      "tagName" : "libraryNeeded"
-    }, {
-      "childNodes" : [ ],
-      "context" : "plugin:org.talend.hadoop.distribution.cdp",
-      "excludeDependencies" : "true",
-      "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_parquet_jackson_1_6_0_jar",
-      "mvn_uri" : "mvn:com.twitter/parquet-jackson/1.6.0/jar",
-      "name" : "parquet-jackson-1.6.0.jar",
       "tagName" : "libraryNeeded"
     }, {
       "childNodes" : [ ],
@@ -12735,6 +12551,14 @@
       "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_sqlline_1_3_0_jar",
       "mvn_uri" : "mvn:sqlline/sqlline/1.3.0/jar",
       "name" : "sqlline-1.3.0.jar",
+      "tagName" : "libraryNeeded"
+    }, {
+      "childNodes" : [ ],
+      "context" : "plugin:org.talend.hadoop.distribution.cdp",
+      "excludeDependencies" : "true",
+      "id" : "DYNAMIC_Cloudera_CDP7_1_1_0_565_sqoop_1_4_7_7_1_1_0_565_jar",
+      "mvn_uri" : "mvn:org.apache.sqoop/sqoop/1.4.7.7.1.1.0-565",
+      "name" : "sqoop-1.4.7.7.1.1.0-565.jar",
       "tagName" : "libraryNeeded"
     }, {
       "childNodes" : [ ],
