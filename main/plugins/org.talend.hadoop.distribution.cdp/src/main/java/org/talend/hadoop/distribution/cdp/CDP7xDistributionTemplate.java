@@ -41,7 +41,8 @@ public class CDP7xDistributionTemplate extends AbstractDynamicCDPDistributionTem
     public final static String ROOT_LIB = "/opt/cloudera/parcels/CDH/lib";
     public final static String TEMPLATE_ID = "CDP7xDistributionTemplate";
     
-    private final static String YARN_APPLICATION_CLASSPATH = "/opt/cloudera/parcels/CDH/lib/spark/jars/*," + 
+    private final static String YARN_APPLICATION_CLASSPATH = 
+    		ROOT_LIB +"/spark/jars/*" + SEPARATOR +
     		ROOT_LIB +"/hive/lib/*" + SEPARATOR +
     		ROOT_LIB +"/impala/lib/*" + SEPARATOR +
     		ROOT_LIB +"/hbase/lib/*" + SEPARATOR +
