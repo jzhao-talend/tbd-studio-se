@@ -42,13 +42,12 @@ public class CDP7xDistributionTemplate extends AbstractDynamicCDPDistributionTem
     public final static String TEMPLATE_ID = "CDP7xDistributionTemplate";
     
     private final static String YARN_APPLICATION_CLASSPATH = 
-    		ROOT_LIB +"/spark/jars/*" + SEPARATOR +
-    		ROOT_LIB +"/hive/lib/*" + SEPARATOR +
-    		ROOT_LIB +"/impala/lib/*" + SEPARATOR +
-    		ROOT_LIB +"/hbase/lib/*" + SEPARATOR +
-    		ROOT_LIB +"/kudu/*" + SEPARATOR +
-    		ROOT_LIB +"/sqoop/*" + SEPARATOR +
-    		ROOT_LIB +"/avro/*" + SEPARATOR ;
+    		ROOT_LIB + "/spark/jars/*" + SEPARATOR +
+    		ROOT_LIB + "/hive/lib/*"   + SEPARATOR +
+    		ROOT_LIB + "/impala/lib/*" + SEPARATOR +
+    		ROOT_LIB + "/hbase/lib/*"  + SEPARATOR +
+    		ROOT_LIB + "/sqoop/lib/*"  + SEPARATOR +
+    		ROOT_LIB + "/kudu/*"       + SEPARATOR  ;
 
     public CDP7xDistributionTemplate(DynamicPluginAdapter pluginAdapter) throws Exception {
         super(pluginAdapter);

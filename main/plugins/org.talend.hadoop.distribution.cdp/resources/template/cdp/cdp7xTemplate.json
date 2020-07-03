@@ -838,13 +838,16 @@
             "id" : "SQOOP-LIB-DYNAMIC",
             "description" : "",
             "modules": [
-                "sqoop_only"
+                "sqoop_only",
+                "parquet-avro"
             ]
         },
         {
             "id" : "SQOOP-PARQUET-LIB-DYNAMIC",
             "description" : "",
-            "modules": []
+            "modules": [
+				
+			]
         },
         {
             "id" : "TALEND_CLOUDERA_NAVIGATOR-DYNAMIC",
