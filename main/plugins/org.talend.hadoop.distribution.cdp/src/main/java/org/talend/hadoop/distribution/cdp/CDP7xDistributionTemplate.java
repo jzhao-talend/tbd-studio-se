@@ -37,14 +37,17 @@ import org.talend.hadoop.distribution.kudu.KuduVersion;
 public class CDP7xDistributionTemplate extends AbstractDynamicCDPDistributionTemplate implements HDFSComponent, HBaseComponent,
         HCatalogComponent, MRComponent, HiveComponent, HiveOnSparkComponent, ImpalaComponent, SqoopComponent,
  CDPSparkBatchComponent, SparkStreamingComponent, ICDP7xDistributionTemplate {
-
+    private final static String SEPARATOR = ",";
+    public final static String ROOT_LIB = "/opt/cloudera/parcels/CDH/lib";
     public final static String TEMPLATE_ID = "CDP7xDistributionTemplate";
-  
+    
     private final static String YARN_APPLICATION_CLASSPATH = "/opt/cloudera/parcels/CDH/lib/spark/jars/*," + 
-    		"/opt/cloudera/parcels/CDH/lib/hive/lib/*," + 
-    		"/opt/cloudera/parcels/CDH/lib/impala/lib/*,"+
-    		"/opt/cloudera/parcels/CDH/lib/hbase/lib/*,"+
-    		"/opt/cloudera/parcels/CDH/lib/kudu/*";
+    		ROOT_LIB +"/hive/lib/*" + SEPARATOR +
+    		ROOT_LIB +"/impala/lib/*" + SEPARATOR +
+    		ROOT_LIB +"/hbase/lib/*" + SEPARATOR +
+    		ROOT_LIB +"/kudu/*" + SEPARATOR +
+    		ROOT_LIB +"/sqoop/*" + SEPARATOR +
+    		ROOT_LIB +"/avro/*" + SEPARATOR ;
 
     public CDP7xDistributionTemplate(DynamicPluginAdapter pluginAdapter) throws Exception {
         super(pluginAdapter);
